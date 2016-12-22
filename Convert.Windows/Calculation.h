@@ -1,3 +1,7 @@
-#define CALCULATION_H                          // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-String^ Element_Currency(int);                 // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
-double Currency_пїЅalculation(int, int, double); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+#ifndef	CALCULATION_H						  
+using namespace Platform;					   // Подключение для работы с String^ 
+const int Quantity_Of_Elements = 2;            
+#define CALCULATION_H                          // Перечисление доступных функций
+String^ Element_Currency(int);                 // Функция для записи названий Валют
+double Currency_Сalculation(int, int, double); // Функция конвертации валюты
+#endif										   
