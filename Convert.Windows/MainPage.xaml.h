@@ -1,7 +1,4 @@
-﻿//
-// MainPage.xaml.h
-// Объявление класса MainPage.
-//
+﻿
 
 #pragma once
 
